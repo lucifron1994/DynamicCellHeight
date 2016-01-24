@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3E8049A31C53D28C00980A8C /* FontSizeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8049A21C53D28C00980A8C /* FontSizeTool.m */; };
+		3E8049A71C54A56300980A8C /* ALHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8049A61C54A56300980A8C /* ALHeightViewController.m */; };
+		3E8049AB1C54A59300980A8C /* ALTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8049A91C54A59300980A8C /* ALTableViewCell.m */; };
+		3E8049AC1C54A59300980A8C /* ALTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8049AA1C54A59300980A8C /* ALTableViewCell.xib */; };
+		3E8049B01C55000E00980A8C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8049AF1C55000E00980A8C /* UIImage+Resize.m */; };
 		3E9469F21C535F6D00CF3093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9469F11C535F6D00CF3093 /* main.m */; };
 		3E9469F51C535F6D00CF3093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9469F41C535F6D00CF3093 /* AppDelegate.m */; };
 		3E9469F81C535F6D00CF3093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9469F71C535F6D00CF3093 /* ViewController.m */; };
@@ -23,6 +27,13 @@
 /* Begin PBXFileReference section */
 		3E8049A11C53D28C00980A8C /* FontSizeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeTool.h; sourceTree = "<group>"; };
 		3E8049A21C53D28C00980A8C /* FontSizeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeTool.m; sourceTree = "<group>"; };
+		3E8049A51C54A56300980A8C /* ALHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALHeightViewController.h; sourceTree = "<group>"; };
+		3E8049A61C54A56300980A8C /* ALHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALHeightViewController.m; sourceTree = "<group>"; };
+		3E8049A81C54A59300980A8C /* ALTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTableViewCell.h; sourceTree = "<group>"; };
+		3E8049A91C54A59300980A8C /* ALTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTableViewCell.m; sourceTree = "<group>"; };
+		3E8049AA1C54A59300980A8C /* ALTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTableViewCell.xib; sourceTree = "<group>"; };
+		3E8049AE1C55000E00980A8C /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		3E8049AF1C55000E00980A8C /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		3E9469ED1C535F6D00CF3093 /* DynamicCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9469F11C535F6D00CF3093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E9469F31C535F6D00CF3093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +123,8 @@
 				3E9469F71C535F6D00CF3093 /* ViewController.m */,
 				3E946A071C53606D00CF3093 /* MainTableViewController.h */,
 				3E946A081C53606D00CF3093 /* MainTableViewController.m */,
+				3E8049A51C54A56300980A8C /* ALHeightViewController.h */,
+				3E8049A61C54A56300980A8C /* ALHeightViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -121,6 +134,11 @@
 			children = (
 				3E946A0A1C53609B00CF3093 /* MyTableViewCell.h */,
 				3E946A0B1C53609B00CF3093 /* MyTableViewCell.m */,
+				3E8049A81C54A59300980A8C /* ALTableViewCell.h */,
+				3E8049A91C54A59300980A8C /* ALTableViewCell.m */,
+				3E8049AE1C55000E00980A8C /* UIImage+Resize.h */,
+				3E8049AF1C55000E00980A8C /* UIImage+Resize.m */,
+				3E8049AA1C54A59300980A8C /* ALTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8049AC1C54A59300980A8C /* ALTableViewCell.xib in Resources */,
 				3E946A001C535F6D00CF3093 /* LaunchScreen.storyboard in Resources */,
 				3E9469FD1C535F6D00CF3093 /* Assets.xcassets in Resources */,
 				3E9469FB1C535F6D00CF3093 /* Main.storyboard in Resources */,
@@ -206,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8049AB1C54A59300980A8C /* ALTableViewCell.m in Sources */,
 				3E946A111C53AA8700CF3093 /* AKBModel.m in Sources */,
 				3E8049A31C53D28C00980A8C /* FontSizeTool.m in Sources */,
 				3E946A091C53606D00CF3093 /* MainTableViewController.m in Sources */,
@@ -213,7 +233,9 @@
 				3E9469F51C535F6D00CF3093 /* AppDelegate.m in Sources */,
 				3E9469F21C535F6D00CF3093 /* main.m in Sources */,
 				3E946A151C53B8D600CF3093 /* AKBModelFrame.m in Sources */,
+				3E8049B01C55000E00980A8C /* UIImage+Resize.m in Sources */,
 				3E946A0C1C53609B00CF3093 /* MyTableViewCell.m in Sources */,
+				3E8049A71C54A56300980A8C /* ALHeightViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

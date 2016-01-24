@@ -19,7 +19,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="vci-Wm-4lh">
-                        <barButtonItem key="rightBarButtonItem" title="Enter" id="ZQt-95-tvr">
+                        <barButtonItem key="leftBarButtonItem" title="AL" id="VCW-uP-UHA">
+                            <connections>
+                                <segue destination="yj3-JQ-3Eq" kind="show" id="jqw-zq-WvQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Code" id="ZQt-95-tvr">
                             <connections>
                                 <segue destination="hhI-wI-euL" kind="show" id="wkx-qq-U9v"/>
                             </connections>
@@ -29,6 +34,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1075.5" y="298"/>
+        </scene>
+        <!--Height View Controller-->
+        <scene sceneID="4fE-7r-TjM">
+            <objects>
+                <tableViewController id="yj3-JQ-3Eq" customClass="ALHeightViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="JGE-Pt-PUv">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="yj3-JQ-3Eq" id="AnS-Bm-4hj"/>
+                            <outlet property="delegate" destination="yj3-JQ-3Eq" id="GFa-9R-WPl"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXy-rw-HpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1872" y="-49"/>
         </scene>
         <!--Main Table View Controller-->
         <scene sceneID="Ndq-FJ-Gp5">
@@ -46,7 +68,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b09-0f-xIg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1890" y="298"/>
+            <point key="canvasLocation" x="1872" y="678"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xms-VL-PPs">

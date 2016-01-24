@@ -40,12 +40,12 @@ const int kMargin = 10;
     CGFloat imageX = kMargin;
     CGFloat imageY = CGRectGetMaxY(_contentF) + kMargin;
     CGFloat imageW = cellW - kMargin * 2;
-    CGSize imageSize = CGSizeMake(imageW, [self test]*imageW);
+    CGSize imageSize = CGSizeMake(imageW, [self getImageRatio]*imageW);
     _imageViewF = (CGRect){{imageX, imageY}, imageSize};
     
 }
 
-- (CGFloat )test{
+- (CGFloat )getImageRatio{
     UIImageView *tempImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:_model.imageName]];
     return tempImageView.frame.size.height/tempImageView.frame.size.width;
 }
