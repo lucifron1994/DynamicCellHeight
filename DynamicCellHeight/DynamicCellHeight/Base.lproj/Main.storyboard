@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="1075.5" y="298"/>
         </scene>
-        <!--Height View Controller-->
+        <!--AutoLayout-->
         <scene sceneID="4fE-7r-TjM">
             <objects>
-                <tableViewController id="yj3-JQ-3Eq" customClass="ALHeightViewController" sceneMemberID="viewController">
+                <tableViewController title="AutoLayout" id="yj3-JQ-3Eq" customClass="ALHeightViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="JGE-Pt-PUv">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,12 +50,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BXy-rw-HpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1872" y="-49"/>
+            <point key="canvasLocation" x="1861.5" y="-39"/>
         </scene>
-        <!--Main Table View Controller-->
+        <!--Code-->
         <scene sceneID="Ndq-FJ-Gp5">
             <objects>
-                <tableViewController id="hhI-wI-euL" customClass="MainTableViewController" sceneMemberID="viewController">
+                <tableViewController title="Code" id="hhI-wI-euL" customClass="MainTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="WQn-Ok-Z1p">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

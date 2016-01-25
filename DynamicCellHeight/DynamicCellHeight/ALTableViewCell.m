@@ -8,7 +8,6 @@
 
 #import "ALTableViewCell.h"
 #import "AKBModel.h"
-#import "UIImage+Resize.h"
 
 @implementation ALTableViewCell
 
@@ -19,13 +18,14 @@
     self.titleLabel.text = model.title;
     self.contentLabel.text = model.content;
     
-    CGFloat width = [UIScreen mainScreen].bounds.size.width;//self.frame.size.width;
+    //这里不能使用self的Rect
+    CGFloat width = [UIScreen mainScreen].bounds.size.width; //self.frame.size.width   XXX
     
-    UIImage *image = [UIImage imageNamed:model.imageName];
-    self.myImageView.image = [image resizeToSize:CGSizeMake(width, width*[self getImageRatio])];
-//    NSLog(@"Frame %@",NSStringFromCGRect(self.imageView.f))
+//    UIImage *image = [UIImage imageNamed:model.imageName];
+//    self.myImageView.image = [image resizeToSize:CGSizeMake(width, width*[self getImageRatio])];
+    
+    self.myImageView.image = [UIImage imageNamed:model.imageName];
     self.imageHeightConstraint.constant = width*[self getImageRatio];
-
 }
 
 

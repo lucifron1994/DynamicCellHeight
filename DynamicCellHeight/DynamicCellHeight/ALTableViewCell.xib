@@ -15,7 +15,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="521" height="407"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PzZ-ez-Biq">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PzZ-ez-Biq">
                         <rect key="frame" x="8" y="8" width="505" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="6cD-YT-yRf"/>
@@ -26,12 +26,11 @@
                     </label>
                     <imageView autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a5p-fP-7GB">
                         <rect key="frame" x="1" y="85" width="520" height="322"/>
-                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="322" id="Tle-zq-lvG"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vb-3p-hjG">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vb-3p-hjG">
                         <rect key="frame" x="8" y="45" width="505" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="gVq-tI-nM0"/>
@@ -56,11 +55,11 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="contentLabel" destination="1Vb-3p-hjG" id="Kdj-Gf-HQf"/>
-                <outlet property="imageHeightConstraint" destination="Tle-zq-lvG" id="IEa-c6-Zap"/>
+                <outlet property="imageHeightConstraint" destination="Tle-zq-lvG" id="q9D-zV-pZd"/>
                 <outlet property="myImageView" destination="a5p-fP-7GB" id="5Cz-ci-bCJ"/>
                 <outlet property="titleLabel" destination="PzZ-ez-Biq" id="fpa-XB-7cd"/>
             </connections>
-            <point key="canvasLocation" x="1565.5" y="1202"/>
+            <point key="canvasLocation" x="1175.5" y="1141"/>
         </tableViewCell>
     </objects>
 </document>

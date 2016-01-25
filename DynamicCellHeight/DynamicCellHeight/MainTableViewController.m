@@ -43,10 +43,10 @@ static NSString *cellID = @"cell";
     model4.model = [AKBModel modelWithTitle:@"prr1" content:@"帕露露哈哈哈哈" imageName:@"prr1"];
     
     AKBModelFrame *model5 = [[AKBModelFrame alloc]init];
-    model5.model = [AKBModel modelWithTitle:@"prr2" content:@"盐露露最可爱了，，，，，好mmmmmmmmmm抖～～～～@@@@@@@@@@@L@@" imageName:@"prr2"];
+    model5.model = [AKBModel modelWithTitle:@"prr2" content:@"盐露露zzzzxxxxxxxx666666666666666666666666666666" imageName:@"prr2"];
     
     AKBModelFrame *model6 = [[AKBModelFrame alloc]init];
-    model6.model = [AKBModel modelWithTitle:@"prr3" content:@"盐露露最可爱了，，，，，好mmmmmmmmmm抖～～～～@@@@@@@@@@@L@@盐露露最可爱了，，，，，好mmmmmmmmmm抖～～～～@@@@@@@@@@@L@@" imageName:@"prr3"];
+    model6.model = [AKBModel modelWithTitle:@"prr3" content:@"Shimazaki Haruka " imageName:@"prr3"];
     
     [self.dataList addObject:model1];
     [self.dataList addObject:model2];

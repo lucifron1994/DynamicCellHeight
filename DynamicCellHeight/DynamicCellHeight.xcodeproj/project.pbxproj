@@ -11,7 +11,6 @@
 		3E8049A71C54A56300980A8C /* ALHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8049A61C54A56300980A8C /* ALHeightViewController.m */; };
 		3E8049AB1C54A59300980A8C /* ALTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8049A91C54A59300980A8C /* ALTableViewCell.m */; };
 		3E8049AC1C54A59300980A8C /* ALTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8049AA1C54A59300980A8C /* ALTableViewCell.xib */; };
-		3E8049B01C55000E00980A8C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8049AF1C55000E00980A8C /* UIImage+Resize.m */; };
 		3E9469F21C535F6D00CF3093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9469F11C535F6D00CF3093 /* main.m */; };
 		3E9469F51C535F6D00CF3093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9469F41C535F6D00CF3093 /* AppDelegate.m */; };
 		3E9469F81C535F6D00CF3093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9469F71C535F6D00CF3093 /* ViewController.m */; };
@@ -32,8 +31,6 @@
 		3E8049A81C54A59300980A8C /* ALTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTableViewCell.h; sourceTree = "<group>"; };
 		3E8049A91C54A59300980A8C /* ALTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTableViewCell.m; sourceTree = "<group>"; };
 		3E8049AA1C54A59300980A8C /* ALTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTableViewCell.xib; sourceTree = "<group>"; };
-		3E8049AE1C55000E00980A8C /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		3E8049AF1C55000E00980A8C /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		3E9469ED1C535F6D00CF3093 /* DynamicCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9469F11C535F6D00CF3093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E9469F31C535F6D00CF3093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,8 +133,6 @@
 				3E946A0B1C53609B00CF3093 /* MyTableViewCell.m */,
 				3E8049A81C54A59300980A8C /* ALTableViewCell.h */,
 				3E8049A91C54A59300980A8C /* ALTableViewCell.m */,
-				3E8049AE1C55000E00980A8C /* UIImage+Resize.h */,
-				3E8049AF1C55000E00980A8C /* UIImage+Resize.m */,
 				3E8049AA1C54A59300980A8C /* ALTableViewCell.xib */,
 			);
 			name = View;
@@ -233,7 +228,6 @@
 				3E9469F51C535F6D00CF3093 /* AppDelegate.m in Sources */,
 				3E9469F21C535F6D00CF3093 /* main.m in Sources */,
 				3E946A151C53B8D600CF3093 /* AKBModelFrame.m in Sources */,
-				3E8049B01C55000E00980A8C /* UIImage+Resize.m in Sources */,
 				3E946A0C1C53609B00CF3093 /* MyTableViewCell.m in Sources */,
 				3E8049A71C54A56300980A8C /* ALHeightViewController.m in Sources */,
 			);
